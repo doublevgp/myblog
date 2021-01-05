@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="keywords" content="大数据，开源学习博客">
+        <meta name="description" content="来这个地方可以交流学习技术">
+        <title>数据学社-笔记分享</title>
+        <link rel="icon" href="../resources/123.ico" type="image/x-icon">
+        <link rel="shortcut icon" href="../resources/123.ico" type="image/x-icon">
+        <!-- <link rel="stylesheet" href="。。"> -->
+        <link rel="stylesheet" href="../css/mycss.css">
+        <script src="../Vue/vue.js"></script>
+    </head>
+    <!-- 使用name作为标记 -->        
+    <body>
+        <header>
+             <!-- 导航栏 -->
+            <nav>
+                <!-- logo图标 -->
+                <div class="logo">
+                    <img style="float: left; width: 5%; height: 48px;" src="../resources/logo.png" alt="logo">
+                </div>
+                <div class="box1" id="box1" style="float: left;">
+                    <ul class="outer">
+                        <li><a href="" class="h" id="shouye">首页</a></li>
+                        <li><a href="wgp.html" class="h" id="note">笔记分享</a></li>
+                        <li><a href="" class="h" id="works">作品展示</a></li>
+                        <li><a href="MyStudyBlog.html" class="h" id="discussion">讨论区</a></li>
+                    </ul>
+                </div>
+                <div style="float: left; width: 25%;">
+                    <input class="search" type="text" placeholder="搜索文章">
+                    <button id="button">
+                        <img id="search_png" src="../../yq/search.png" alt="搜索图标" >
+                    </button>
+                </div>
+                <div style ="width: 32%;float: right;height: 50px;">
+                    <ul style="width: 100%; height: 100%;">                        
+                        <li id="users-box" style="float: right; width: 50px; height: 100%;">
+                            <a href="" id="users" >用户</a></li>        
+                    </ul>
+                </div>
+                
+                 <!-- 搜索框 -->
+                 
+            </nav>
+        </header>
+
+        <!-- 介绍专栏 -->
+        <div style="display: block;">
+            <div class="columns-1">
+                <img src="../../yq/bg.jpg" alt="bg" style="height: auto;">
+                <div class="col-1-1" >
+                    <h3 id="col-1-1-h1">N o t e s</h3>
+                    <h1 id="col-1-1-h2">N & S</h1>
+                    <h3 id="col-1-1-h3">S h a r i n g</h3>
+                </div>
+            </div>
+        </div>
+
+        <!-- 具体公告 -->
+
+        <div style="margin-right: auto;margin-left: auto;max-width: 99rem; width: 100%;padding-left: 2rem;padding-right: 2rem;display: block;">
+            <div style="padding-bottom: 72px;padding-top: 50px;display: block;">
+                <div class="div-inline" style="flex: 0 0 25%;max-width: 25%;padding-right: 84px;padding-bottom: 24px;">
+                    <h5 style="font-size: 1.25rem;line-height: 1.625rem;color: #171717;margin: 0 0 1.375rem 0;">
+                        优质笔记
+                    </h5>
+                    <p style="font-size: 14px;line-height: 1.5rem;color: #171717;margin: 0 0 2rem 0;word-wrap: break-word;word-break: normal;">
+                        专业人员的笔记分享，帮助您突破技术障碍。专业人员的笔记分享，帮助您突破技术障碍。专业人员的笔记分享，帮助您突破技术障碍。专业人员的笔记分享，帮助您突破技术障碍。专业人员的笔记分享，帮助您突破技术障碍。
+                    </p>
+                    <a href="" style="text-decoration: none;">更多more</a>
+                </div>
+                <div class="div-inline" style="flex: 0 0 75%;max-width: 75%;width: 100%;padding-right: 1rem;padding-left: 1rem;">
+                    <div style="padding-left: 0;display: flex;flex-wrap: wrap;margin-right: -1rem;margin-left: -1rem;">
+                        <div  style="padding-bottom: 24px;padding-left: 0;flex: 0 0 33.3333333333%;max-width: 33.3333333333%;width: 100%;padding-right: 1rem;">
+                            <div style="background: #ffffff;border: 1px solid #bebebe;padding: 0;transition: background-color 0.15s ease;height: 100%;display: block;min-width: 8rem;min-height: 4rem;position: relative;outline: 2px solid transparent;outline-offset: -2px;">
+                                <a href="https://github.com/doublevgp/myblog" style="display: block;cursor: pointer;text-decoration: none;height: 100%;min-height: 18.75rem;position: relative;z-index: 100;color: #0062ff;">
+                                    <div style="height: 9rem;margin: 0rem;position: relative;background:transparent url(https://developer.ibm.com/developer/default/videos/pros-and-cons-for-serverless-mobile-backend-as-a-service/nl/zh/card.jpg) no-repeat 0 0 / cover;">
+                                    </div>
+                                    <h5 style="background: none !important;font-size: 0.875rem;margin: 0;padding-bottom: 0;color: #565656;font-weight: 300;line-height: 1rem;padding: 1rem;position: relative;">
+                                        笔记
+                                    </h5>
+                                    <div style="padding: 1rem 1rem 3rem 1rem;">
+                                        <h3 style="line-height: 1.375rem;font-weight: 600;font-size: 1rem;color: #282828;">
+                                            无服务器移动后端即服务的优缺点
+                                        </h3>
+                                    </div>
+                                    <div class="card__bottom">
+                                        <p>
+                                            <span class="card__date">2021-01-03</span>
+                                        </p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="div-inline" style="padding-bottom: 24px;padding-left: 0;flex: 0 0 33.3333333333%;max-width: 33.3333333333%;width: 100%;padding-right: 1rem;">
+                            <div style="background: #ffffff;border: 1px solid #bebebe;padding: 0;transition: background-color 0.15s ease;height: 100%;display: block;min-width: 8rem;min-height: 4rem;position: relative;outline: 2px solid transparent;outline-offset: -2px;">
+                                <a href="https://github.com/doublevgp/myblog" style="display: block;cursor: pointer;text-decoration: none;height: 100%;min-height: 18.75rem;position: relative;z-index: 100;color: #0062ff;">
+                                    <div style="height: 9rem;margin: 0rem;position: relative;background:transparent url(https://developer.ibm.com/developer/default/videos/pros-and-cons-for-serverless-mobile-backend-as-a-service/nl/zh/card.jpg) no-repeat 0 0 / cover;">
+                                    </div>
+                                    <h5 style="background: none !important;font-size: 0.875rem;margin: 0;padding-bottom: 0;color: #565656;font-weight: 300;line-height: 1rem;padding: 1rem;position: relative;">
+                                        笔记
+                                    </h5>
+                                    <div style="padding: 1rem 1rem 3rem 1rem;">
+                                        <h3 style="line-height: 1.375rem;font-weight: 600;font-size: 1rem;color: #282828;">
+                                            无服务器移动后端即服务的优缺点
+                                        </h3>
+                                    </div>
+                                    <div class="card__bottom">
+                                        <p>
+                                            <span class="card__date">2021-01-03</span>
+                                        </p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div style="padding-bottom: 24px;padding-left: 0;flex: 0 0 33.3333333333%;max-width: 33.3333333333%;width: 100%;padding-right: 1rem;">
+                            <div style="background: #ffffff;border: 1px solid #bebebe;padding: 0;transition: background-color 0.15s ease;height: 100%;display: block;min-width: 8rem;min-height: 4rem;position: relative;outline: 2px solid transparent;outline-offset: -2px;">
+                                <a href="https://github.com/doublevgp/myblog" style="display: block;cursor: pointer;text-decoration: none;height: 100%;min-height: 18.75rem;position: relative;z-index: 100;color: #0062ff;">
+                                    <div style="height: 9rem;margin: 0rem;position: relative;background:transparent url(https://developer.ibm.com/developer/default/videos/pros-and-cons-for-serverless-mobile-backend-as-a-service/nl/zh/card.jpg) no-repeat 0 0 / cover;">
+                                    </div>
+                                    <h5 style="background: none !important;font-size: 0.875rem;margin: 0;padding-bottom: 0;color: #565656;font-weight: 300;line-height: 1rem;padding: 1rem;position: relative;">
+                                        笔记
+                                    </h5>
+                                    <div style="padding: 1rem 1rem 3rem 1rem;">
+                                        <h3 style="line-height: 1.375rem;font-weight: 600;font-size: 1rem;color: #282828;">
+                                            无服务器移动后端即服务的优缺点
+                                        </h3>
+                                    </div>
+                                    <div class="card__bottom">
+                                        <p>
+                                            <span class="card__date">2021-01-03</span>
+                                        </p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div style="padding-bottom: 72px;padding-top: 50px;">
+                <div style="flex: 0 0 25%;max-width: 25%;padding-right: 84px;padding-bottom: 24px;">
+                    <h5 style="font-size: 1.25rem;line-height: 1.625rem;color: #171717;margin: 0 0 1.375rem 0;">
+                        精美作品
+                    </h5>
+                    <p style="font-size: 14px;line-height: 1.5rem;color: #171717;margin: 0 0 2rem 0;word-wrap: break-word;word-break: normal;">
+                        专业人员的作品展示，帮助您突破技术障碍。专业人员的作品展示，帮助您突破技术障碍。专业人员的作品展示，帮助您突破技术障碍。专业人员的作品展示，帮助您突破技术障碍。专业人员的作品展示，帮助您突破技术障碍。
+                    </p>
+                    <a href="" style="text-decoration: none;">更多more</a>
+                    
+                </div>
+                
+            </div>
+        </div>
+
+        <footer class="footer" style="background-color: #f5f5f5; width: 100%; height: 100px;">
+            <div class="footer-cont" style="width: 98%; height: 98%; margin: 5px;">
+                <div class="footer-link" style="width: 60%; height: auto; margin: 10px 200px; line-height: 30px;">
+                    <ul class="footer-padding"> 
+                        <li><a href="" class="h">联系我们</a></li>
+                        <li><a href="" class="h">隐私条约</a></li>
+                        <li><a href="" class="h">使用条款</a></li>
+                        <li><a href="" class="h">举报</a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+        <script>
+            new Vue({
+                el:"#",
+                data:{
+
+                },
+                methods:{
+
+                }
+            })
+        </script>
+    </body>
+</html>

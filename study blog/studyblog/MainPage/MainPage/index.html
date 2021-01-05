@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		 <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+		<title>MainPage</title>
+	</head>
+	<body>
+		<header>
+			<style>
+				body
+				{
+					margin: 0;
+				}
+				header .header-nav
+				{
+					margin-top: 20px;
+					margin-bottom: 20px;
+					background: white;
+					border-radius: 5px;
+				}
+				header .header-nav nav
+				{
+					display: inline;
+					margin-left: 10%;
+					min-width: 100px;
+				}
+				header .header-nav p
+				{
+					display: inline;
+					margin-left: 50px;
+					font-family: "YouYuan";
+					font-size: 200%;
+				}
+				header .header-nav nav a
+				{
+					margin: 3%;
+					color: black;
+					font-weight: bold;
+					font-size: larger;
+					font-family: "Microsoft YaHei";
+
+					text-decoration: none;
+				}
+				header .header-nav nav a:hover, a:active
+				{
+					background-color: darkgray;
+				}
+				header .header-poster
+				{
+					margin-top: 0px;
+					background-color: #171717;
+				}
+
+				header .header-poster .content
+				{
+					margin-left: 20%;
+				}
+				header .header-poster .content .caption
+				{
+					color: white;
+					text-align: left;
+					font-family: "courier new";
+					font-size: 70px;
+					margin: 10% 0px 0px;
+				}
+				header .header-poster .content .description
+				{
+					font-family: arial;
+					color: dimgray;
+				}
+
+
+				header .header-poster .searchBox
+				{
+					width: 120%;
+					height: 50px;
+					font-size: 20px;
+					background-color: darkgrey;
+					padding-left: 15px;
+				}
+
+				header .header-poster .topic
+				{
+					display: grid;
+					grid-template-columns:18% 40%;
+					grid-template-rows: 15%;
+				}
+
+				header .header-poster .topic .topic-head
+				{
+					font-family: "Microsoft YaHei";
+					font-size: 20px;
+					color: azure;
+					margin-left: 10%;
+				}
+				header .header-poster .topic .topic-links a
+				{
+					display: inline-block;
+					font-family: "Microsoft YaHei";
+					font-size: 20px;
+					color: azure;
+					padding-left: 5%;
+					text-decoration: none;
+				}
+			</style>
+			<div class="header-nav">
+				<p></p>
+				<nav>
+					<a href="index.html">首页</a>
+					<a href="../../html/blog.html">作品与笔记</a>
+					<a href="../../../MyStudyBlog.html">公告与话题</a>
+				</nav>
+			</div>
+			
+			<div class="header-poster">
+				<table class="content">
+					<tr>
+						<td>
+							<p class="caption">DATA CHANGES<br/>THE WORLD.</p>
+							<p class="description">A TEAM WORK SITE</p>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<br />
+							<br />
+							<input class="searchBox" type="text" placeholder="检索文章"/>
+						</td>
+					</tr>
+				</table>
+				<div class="topic">
+					<p class="topic-head">最新话题</p>
+					<div class="topic-links">
+						<a href="#"><p>数据挖掘</p></a>
+						<a href="#"><p>数据处理</p></a>
+						<a href="#"><p>数据呈现</p></a>
+						<a href="#"><p>查看更多</p></a>
+					</div>
+				</div>
+				
+			</div>
+		</header>
+		
+		<main>
+			<style>
+				main .article 
+				{
+					margin-left: 10%;
+					margin-top: 10%;
+					margin-bottom: 10%;
+					display: flex;
+					font-family: "microsoft yahei";
+				}
+				main .article .article-title 
+				{
+					
+					padding: 0;
+				}
+				main .article .article-title .title
+				{
+					font-size: 40px;
+					margin: 0;
+				}
+				main .article .article-title .description
+				{
+					font-size: 15px;
+				}
+				main .article .abstract
+				{
+					margin-left: 10%;
+					width: 1000px;
+					height: 500px;
+					background-image: url(img/img.jpg);
+					background-repeat: no-repeat;
+					background-size: cover;
+				}
+				
+				main .article .abstract p
+				{
+					color: azure;
+					font-size: 20px;
+					margin-left: 5%;
+				}
+			</style>
+			
+			<div class="article">
+				<div class="article-title">
+					<p class="title">文章标题</p>
+					<p class="description">文章简述</p>
+				</div>
+				<div class="abstract">
+					<p>文章摘要文章摘要文章摘要文章摘要文章摘要<br/>文章摘要文章摘要文章摘要文章摘要文章摘要</p>
+				</div>
+				
+			</div>
+			
+			<div class="article">
+				<div class="article-title">
+					<p class="title">文章标题</p>
+					<p class="description">文章简述</p>
+				</div>
+				<div class="abstract">
+					<p>文章摘要文章摘要文章摘要文章摘要文章摘要<br/>文章摘要文章摘要文章摘要文章摘要文章摘要</p>
+				</div>
+				
+			</div>
+			
+			<div class="article">
+				<div class="article-title">
+					<p class="title">文章标题</p>
+					<p class="description">文章简述</p>
+				</div>
+				<div class="abstract">
+					<p>文章摘要文章摘要文章摘要文章摘要文章摘要<br/>文章摘要文章摘要文章摘要文章摘要文章摘要</p>
+				</div>
+				
+			</div>
+			
+		</main>
+		
+		<footer>
+			<style>
+				footer .Info
+				{
+					background-color: #171717;
+					height: 500px;
+					margin-top: 0;
+					color: azure;
+					font-family: "microsoft yahei";
+				}
+				
+				footer .Info .teamInfo
+				{
+					
+				}
+				
+			</style>
+
+			<div class="Info">
+				<div class="teamInfo">
+					<p>小组信息</p>
+				</div>
+				<div class="versionInfo">
+					<p>版本信息</p>
+				</div>
+
+				<div class="copyrightInfo">
+					<p>版权信息</p>
+				</div>
+
+			</div>
+			<div id="Info">
+				<div class="teamInfo">
+					<p>
+						本站提供的内容仅用于培训和测试，不保证内容的正确性。通过使用本站内容随之而来的风险与本站无关。版权所有，保留一切权利。
+					</p>
+				</div>
+
+				<div class="copyrightInfo">
+					<p>&copy;Copyright：大数据小组</p>
+				</div>
+
+				<div class="contection">
+					<a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=291551799&site=qq&menu=yes">
+						<img border="0" src="http://wpa.qq.com/pa?p=2:291551799:53" alt="你好，加我复习计算机系统基础！" title="你好，加我复习计算机系统基础！"/>
+					</a>
+				</div>
+
+<!--				<p id="p2">-->
+
+<!--					<a href="/about/about_use.asp" title="关于使用">使用条款</a>-->
+<!--					<a href="/about/about_privacy.asp" title="关于隐私">隐私条款</a>-->
+<!--					<a class="link_kanli" href="/ad.html" target="_blank" title="">广告刊例</a>-->
+<!--					<a target="_blank" href="https://www.ykinvestment.com/">技术支持：大数据小组</a>-->
+<!--					<a href="mailto:wgp330522@sina.com">与我联系</a>-->
+<!--					-->
+<!--				<p>-->
+
+				</p>
+
+				</p>
+			</div>
+		</footer>
+
+		
+	</body>
+
+</html>

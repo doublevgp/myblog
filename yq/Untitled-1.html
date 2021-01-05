@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>可恶的叶琼</title>
+    </head>
+    
+    <body>
+        <h1><abbr title = "肝尽脑绝">叶琼</abbr>打工人</h1> 
+            <!--h标题有h1到h6 字体大小由大到小变化-->
+        <hr>
+        <p>天天做推送</p>
+            <!--内容，里面不能加链接，加了链接也不能跳转-->
+        <a href="https://mp.weixin.qq.com/s/NCtP-rO36jbmoLuAeUzJkg" >不信你看</a><br/>
+        <a href="#next">还有别的</a>
+            <!--通过标签a来定义标签，链接的地址在href的属性中指定
+                注：属性一般描述与开始标签，总是以名称和值一对的形式出现，
+                值始终包括在引号内，单双引号均可。但是若值中包含双引号，则必须用单引号包括值。-->
+        <br/>
+        <br/>
+        <br/><!--定义换行，<br>是没有关闭标签的空元素，<br/>是关闭空元素的正确方法，加斜杠更加长远的保障
+                注：所有标签都要闭合，不论单体标签还是成对标签-->
+        <img src="/VS code/html/ddd.jpg" alt="cewen" width="258" height="300" />
+            <!--图像由img定义，后面不接width，height即为图片本身大小,alt是图片无法显示时出现的文本内容
+                Q:其中随便一个地方插入随意的一串字母，如dshk="",引号内会有自动补全该串字母，不知道有何用处-->
+
+        <p>
+            This      is 
+                a <abbr title="Hyper Text Markup Language">HTML</abbr> file 
+                        for YQ
+        </p><!--html里会自动一处多余的空格和空行-->
+
+        <p>
+            这是<b>用"b"加粗</b>的句子。
+            <br/>
+            这是<strong>用"strong"加粗</strong>的句子。
+            <br/>
+            这是<i>用"i"倾斜</i>的句子。
+            <br/>
+            这是<em>用"em"倾斜</em>的句子。
+            <br/>
+            这是<code>电脑自动输出</code>的句子。
+            <br/>
+            这是<sub>下标</sub>，这是<sup>上标</sup>。
+            <br/>
+            这是<small>变小</small>的句子。
+            <!--big标签不受支持-->
+        </p>
+        
+        <p>
+            这是一个电子邮件链接：
+            <a href="mailto:someone@example.com?Subject=Hello%20again" target="_top">
+            发送邮件</a>
+            </p>
+            
+
+        <bdo dir="rtl">这是一个倒着的句子。</bdo>
+
+        <p>
+            <q>哈哈哈哈</q>
+            <del>我删了</del>
+            <ins>我装的</ins>
+        </p>
+
+        <pre>
+            This      is 
+                a <abbr title="Hyper Text Markup Language">HTML</abbr> file 
+                    for YQ
+            <a id="next" href="https://mp.weixin.qq.com/s/0eU9sC6pY5ov_P2glxO5tw" target="_blank" rel="noopener noreferrer">不信你再看</a>
+        </pre><!--pre会展示空格和空行,target可以让链接跳转到一个新开的页面-->
+
+        <address>
+            信息来源：叶琼
+        </address><!--地址内容为斜体-->
+    </body>
+</html>

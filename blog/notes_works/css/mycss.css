@@ -1,0 +1,234 @@
+body{
+    margin: 0px;
+    background-color:white;
+}
+img
+{
+    width: 100%;
+    height: 60px;
+    background-color: white;
+}
+nav div ul
+{
+    list-style-type:none;
+    margin: 0;
+    padding: 0px;
+    overflow: hidden;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0px;
+    overflow: hidden;
+}
+li 
+{
+    float: left;
+}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+#box1
+{
+    margin: 0;
+    color: gray;
+    width: auto;
+    height: 48px;
+}
+#outer
+{
+    margin: 0px;
+    color:gray;
+    width: 1000px;
+    height: 45px;
+}
+.search{
+    width: 80%;
+    height: 44px;
+    font-size: 20px;
+    background-color: white;
+    padding-left: 5px;
+    float: left;
+    border-radius: 5px;
+    border-color: darkgrey;
+}
+#button{
+    background-color:lightgray;
+    border: none;
+    color: #FFF;
+    cursor: pointer;
+    float: left;
+    font-size: 15px;
+    font-weight: 400;
+    height: 50px;
+    width: 50px;
+    margin-left: 2px;
+    padding-left: 3px;
+    padding-top: 3px;
+    overflow: hidden;
+    text-align: center;
+}
+
+#button:active, #button:hover
+{
+    background-color:darkgrey
+}
+
+#search_png
+{
+    width: 45px;
+    height: 45px;
+    /* background:none; */
+    background:url(../yq/search.png) repeat-x 0 0;
+    /* _background:none; _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="../yq/search.png" ,sizingMethod="crop");  */
+}
+
+#users
+{
+    padding:13px 8px;
+    border-radius: 50px; 
+    color: darkgray;
+    width: 50px; 
+    background-color: lightgray;
+    text-decoration: none;
+    line-height: 3;
+}
+
+#users:hover, #users:active
+{
+    background-color: rgb(56, 55, 55);
+    color: white;
+}
+
+.h:link, .h:visited
+{   
+    padding-top: 13px;
+    padding-bottom: 6px;
+    display: block;
+    width: 120px;
+    height: 30px;
+    font-weight: bold;
+    color:black;
+    background-color: #f5f5f5;
+    text-align: center;                    
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.h:hover, .h:active
+{
+    background-color:gainsboro;
+}
+
+.col-1-1
+{
+   position: absolute;
+   color:white;
+   z-index: 2;
+   width: 100%;
+   height: 30%;
+   top: 180px;
+}
+#col-1-1-h1
+{                
+    margin-top: 2px;
+    font-size: 35px;
+    margin-left: 150px;
+    margin-bottom: 2px;
+}
+#col-1-1-h2
+{
+    margin-top: -22px;
+    font-size: 100px;
+    margin-left: 135px;
+    margin-bottom: 2px;
+}
+#col-1-1-h3
+{
+    margin-top: -22px;
+    font-size: 35px;
+    margin-left: 150px;
+}
+.card_block
+{
+    display: block;
+    cursor: pointer;
+    text-decoration: none;
+    position: relative;
+    height: 100%;
+    min-height: 18.75rem;
+    position: relative;
+    z-index: 100;
+}
+.card_image
+{
+    height: 9rem;
+    margin: 0rem;
+    position: relative;
+}
+.bx--col-lg-4 {
+  width: 100%;
+  padding-right: 1rem;
+  padding-left: 1rem; }
+  .bx--row--condensed .bx--col-lg-4, .bx--grid--condensed .bx--col-lg-4 {
+    padding-right: 0.0625rem;
+    padding-left: 0.0625rem; }
+
+.bx--col-lg-5 {
+  width: 100%;
+  padding-right: 1rem;
+  padding-left: 1rem; }
+  .bx--row--condensed .bx--col-lg-5, .bx--grid--condensed .bx--col-lg-5 {
+    padding-right: 0.0625rem;
+    padding-left: 0.0625rem; }
+
+.bx--col-lg-6 {
+  width: 100%;
+  padding-right: 1rem;
+  padding-left: 1rem; }
+  .bx--row--condensed .bx--col-lg-6, .bx--grid--condensed .bx--col-lg-6 {
+    padding-right: 0.0625rem;
+    padding-left: 0.0625rem; }
+.bx--tile.developer--card {
+  background: #ffffff;
+  border: 1px solid #bebebe;
+  padding: 0;
+  transition: background-color 0.15s ease;
+  height: 100%;
+  /* content type specific styles */ }
+.bx--tile {
+  display: block;
+  min-width: 8rem;
+  min-height: 4rem;
+  background-color: #f3f3f3;
+  position: relative;
+  padding: 1rem;
+  outline: 2px solid transparent;
+  outline-offset: -2px; }
+.bx--tile:focus {
+    outline: 2px solid #0062ff;
+    outline-offset: -2px; }
+.card__bottom
+{
+    position: absolute;
+    bottom: 1px;
+    min-height: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 1rem 1rem 1rem;
+}
+.card__date
+{
+    display: block;
+    color: #565656;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+.div-inline{ display:inline-block;} 

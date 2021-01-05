@@ -1,0 +1,166 @@
+body{
+    margin: 0px;
+    background-color:white;
+}
+img
+{
+    width: 100%;
+    height: 60px;
+    background-color: white;
+}
+nav div ul
+{
+    list-style-type:none;
+    margin: 0;
+    padding: 0px;
+    overflow: hidden;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0px;
+    overflow: hidden;
+}
+li
+{
+    /* margin: auto; */
+    /* margin-top: -10px;
+    padding-top: 20px; */
+    float: left;
+}
+#box1
+{
+    margin: 0;
+    color: gray;
+    width: auto;
+    height: 48px;
+}
+#outer
+{
+    margin: 0px;
+    color:gray;
+    width: 1000px;
+    height: 45px;
+}
+.search{
+    width: 80%;
+    height: 44px;
+    font-size: 20px;
+    background-color: white;
+    padding-left: 5px;
+    float: left;
+    border-radius: 5px;
+    border-color: darkgrey;
+}
+#button{
+    background-color:lightgray;
+    border: none;
+    color: #FFF;
+    cursor: pointer;
+    float: left;
+    font-size: 15px;
+    font-weight: 400;
+    height: 50px;
+    width: 50px;
+    margin-left: 2px;
+    padding-left: 3px;
+    padding-top: 3px;
+    overflow: hidden;
+    text-align: center;
+}
+
+#button:active, #button:hover
+{
+    background-color:darkgrey
+}
+
+#search_png
+{
+    width: 45px;
+    height: 45px;
+    /* background:none; */
+    background:url(../yq/search.png) repeat-x 0 0;
+    /* _background:none; _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="../yq/search.png" ,sizingMethod="crop");  */
+}
+
+#users
+{
+    border-radius: 50px;
+    color: darkgray;
+    width: 50px;
+    background-color: lightgray;
+}
+
+#users:hover, #users:active
+{
+    background-color: rgb(56, 55, 55);
+    color: white;
+}
+
+ul li a:link, a:visited
+{
+    padding-top: 13px;
+    padding-bottom: 6px;
+    display: block;
+    width: 120px;
+    height: 30px;
+    font-weight: bold;
+    color:black;
+    background-color: white;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+ul li a:hover, a:active
+{
+    background-color:gainsboro;
+}
+#col-1-1
+{
+    position: absolute;
+    color:white;
+    z-index: 2;
+    width: 100%;
+    height: 30%;
+    top: 180px;
+}
+#col-1-1-h1
+{
+    margin-top: 2px;
+    font-size: 35px;
+    margin-left: 150px;
+    margin-bottom: 2px;
+}
+#col-1-1-h2
+{
+    margin-top: -22px;
+    font-size: 100px;
+    margin-left: 135px;
+    margin-bottom: 2px;
+}
+#col-1-1-h3
+{
+    margin-top: -22px;
+    font-size: 35px;
+    margin-left: 150px;
+}
+#article-1-pic
+{
+    float: left;
+    width: 30%;
+    height:auto;
+    margin: 5px;
+}
+#pic-1
+{
+    border-radius: 5px;
+    width: 100%;
+    height: auto;
+}
+#article-1-content
+{
+    margin: 10px 5px;
+    height: 100%;
+    width: 70%;
+}
